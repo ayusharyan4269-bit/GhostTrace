@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+backend/.venv/
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+frontend/tsconfig.tsbuildinfo
+__pycache__/
+*.pyc
+
+# Database & Local User Data
+backend/*.db
+backend/*.sqlite3
+*.db
+*.sqlite3
+
+# Environment configurations
+.env
+backend/.env
+frontend/.env.local
+
+# Test & coverage reports
+.pytest_cache/
+coverage/
+.vitest/
+
+# IDE & Editor files
+.docs/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
